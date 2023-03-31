@@ -3,9 +3,9 @@
 class Figure
 {
 protected:
-	std::string name;
+	std::string name = "Фигура";
 public:
-	Figure() {};
+	Figure();
 	virtual void Sides();
 	virtual void Angles();
 	virtual void print();

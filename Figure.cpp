@@ -1,6 +1,10 @@
 #include "Figure.h"
 #include <iostream>
-void Figure::Sides()
+Figure::Figure()
+{
+
+}
+ void Figure::Sides()
 {
 
 }
